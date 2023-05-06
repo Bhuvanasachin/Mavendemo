@@ -6,6 +6,7 @@
   pipeline {
     agent {
     lable java_node
+    }
     stages {
         stage('Checkout') {
             steps {
