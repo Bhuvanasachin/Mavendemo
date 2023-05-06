@@ -1,9 +1,14 @@
-peline {
+
+           
+               
+           
+       
+  pipeline {
     agent any
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/Bhuvanasachin/Mavendemo.git'
+                git 'https://github.com/learnasws16161616/maven.git'
             }
         }
          stage('Build') {
@@ -13,3 +18,6 @@ peline {
         }
     }
 }
+    
+  
+
